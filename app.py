@@ -1,5 +1,5 @@
 import sys
-from flask import Flask, jsonify, request, url_for
+from flask import Flask, jsonify, request
 from models import db, Fruit
 from schemas import ma, fruit_schema, fruits_schema
 
@@ -109,18 +109,18 @@ if __name__ == "__main__":
     if "create_db" in sys.argv:
         with app.app_context():
             db.create_all()
-        print("Database created!")
 
+        print("Database created!")
     elif "seed_db" in sys.argv:
         with app.app_context():
             banana = Fruit(
                 name="banana",
                 description="banana lorem ipsum dolor sit amet"
             )
+
             db.session.add(banana)
-
             db.session.commit()
-        print("Database seeded!")
 
+        print("Database seeded!")
     else:
         app.run(debug=True)
