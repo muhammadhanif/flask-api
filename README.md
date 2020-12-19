@@ -1,6 +1,6 @@
 # flask-api
 
-### How To
+## How To
 
 Clone the repository:
 
@@ -51,3 +51,10 @@ python3 app.py
 | Create a fruit   | POST   | /fruits        | `curl http://127.0.0.1:5000/fruits -X POST -d name="apple" -d description="apple lorem ipsum dolor sit amet" -i`      |
 | Update a fruit   | PUT    | /fruits/`<id>` | `curl http://127.0.0.1:5000/fruits/1 -X PUT -d name="Avocado" -d description="Avocado lorem ipsum dolor sit amet" -i` |
 | Delete a fruit   | DELETE | /fruits/`<id>` | `curl http://127.0.0.1:5000/fruits/1 -X DELETE -i`                                                                    |
+
+## Donate
+
+If you want to donate to this project, please contact us:
+
+- Email: moehammadhanif@gmail.com
+- Telegram: [t.me/muhammad_hanif](https://t.me/muhammad_hanif)
