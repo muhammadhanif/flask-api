@@ -2,9 +2,9 @@
 
 Check the branches for viewing source code of application.
 
-## Donasi
+## Donate
 
-Jika kalian ingin berdonasi, silahkan menghubungi kami melalui jalur berikut ini:
+If you want to donate to this project, please contact us:
 
 - Email: moehammadhanif@gmail.com
 - Telegram: [t.me/muhammad_hanif](https://t.me/muhammad_hanif)
